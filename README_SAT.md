@@ -1,6 +1,6 @@
 # Statistical Arbitrage Trading
 
-In this course, you have learned how to code the Cointegration test and Correlation test in Python. You have also learned to code the Pairs Trading strategy both in python and excel. All these codes are provided in this downloadables folder.
+In this course, you have learned how to code the Cointegration test and Correlation test in Python. You have also learned to code the Pairs Trading strategy both in Python and excel. All these codes are provided in this downloadables folder.
 
 ## This readme file has the following sections:
 1. Prerequisites
@@ -15,7 +15,7 @@ Before running these notebooks, you need to setup a Python environment on your l
 	conda install python=3.6.8
 
 ## Installing packages:
-We have used the following Python libraries in the course. Kindly ensure you have these libraries installed with the same versions as mentioned below. To install the same version on your local system. Type this command on IPython notebook.
+We have used the following Python libraries in the course. Kindly ensure you have these libraries installed with the same versions as mentioned below. To install the same version on your local system, type these commands on IPython notebook.
 
 	!pip install numpy==1.16.4
 	!pip install pandas==0.23.4
