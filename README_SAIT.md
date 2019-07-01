@@ -1,6 +1,6 @@
 # Sentiment Analysis in Trading
 
-In this course, you have learned how to code the three capital allocation methods namely, MPT, Kelly Criterion and Risk Parity in Python. You have also calculated Beta, expected returns using the Fama French three-factor model and created a strategy using momentum and short-term reversal factors in Python. All these codes are provided in this downloadables folder.
+In this course, you have learned how to code to create an API object, fetch tweets,  in Python. You have also calculated Beta, expected returns using the Fama French three-factor model and created a strategy using momentum and short-term reversal factors in Python. All these codes are provided in this downloadables folder.
 
 ## This readme file has the following sections:
 1. Prerequisites
@@ -15,7 +15,7 @@ Before running these notebooks, you need to setup a Python environment on your l
 	conda install python=3.6.8
 
 ## Installing packages:
-We have used the following Python libraries in the course. Kindly ensure you have these libraries installed with the same versions as mentioned below. To install the same version on your local system. Type this command on IPython notebook.
+We have used the following Python libraries in the course. Kindly ensure you have these libraries installed with the same versions as mentioned below. To install the same version on your local system, type these commands on IPython notebook.
 
 	!pip install tabulate==0.8.2
 	!pip install tweepy==3.7.0
@@ -28,9 +28,9 @@ We have used the following Python libraries in the course. Kindly ensure you hav
 Once you have your system in place, you can run the notebooks using Jupyter interface and Python codes using the Spyder Interface. This is installed along with Anaconda. You need to update the API keys for the following in the 'sentiment_analysis_quantra.py' file in each folder given below. Kindly fetch the API keys according to the instructions provided in the corresponding PDFs. You can then paste the keys in the respective functions
 
 Functions:
-1. get_twitter_tokens() - Get the Twitter API keys by following the steps given in the 'Get Twitter API Keys - Guide.pdf' and paste in this function
-2. get_rapid_api_key() - Get the Rapid API key by following the steps given in the 'Get Botometer API Key - Guide.pdf' and paste in this function
-3. get_webhoseio_key() - Get the Webhoseio API key by following the steps given in the 'S12 Fetching news articles.ipynb' under 'Getting API key'
+1. get_twitter_tokens() - Get the Twitter API keys by following the steps given in the 'Get Twitter API Keys - Guide.pdf' and 		   paste in this function
+2. get_rapid_api_key() - Get the Rapid API key by following the steps given in the 'Get Botometer API Key - Guide.pdf' and paste 	    in this function
+3. get_webhoseio_key() - Get the Webhoseio API key by following the steps given in the 'S12 Fetching news articles.ipynb' under 	   'Getting API key'
 
 ## Folder structure:
 This folder contains 8 subfolders divided based on the sections of the course. Each subfolder contains the IPython notebooks, Python codes and the data required to run them in that particular section.
