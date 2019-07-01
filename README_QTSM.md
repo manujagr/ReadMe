@@ -26,7 +26,7 @@ We have used the following Python libraries in the course. Kindly ensure you hav
 Once you have your system in place, you can run the notebooks using Jupyter interface. This is installed along with Anaconda.
 
 ## Folder structure:
-This folder contains 1 subfolders divided based on the sections of the course. Each subfolder contains the IPython notebooks and the data required to run them in that particular section.
+This folder contains 1 subfolder divided based on the sections of the course. It contains the IPython notebooks and the data required to run them in that particular section.
 
 	1. Technical Trading Strategies:
 		a. Trend based strategy.ipynb
