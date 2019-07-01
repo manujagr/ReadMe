@@ -15,7 +15,7 @@ Before running these notebooks, you need to setup a Python environment on your l
 	conda install python=3.6.8
 
 ## Installing packages:
-We have used the following Python libraries in the course. Kindly ensure you have these libraries installed with the same versions as mentioned below. To install the same version on your local system. Type this command on IPython notebook.
+We have used the following Python libraries in the course. Kindly ensure you have these libraries installed with the same versions as mentioned below. To install the same version on your local system, type these commands on IPython notebook.
 
 	!pip install numpy==1.16.4
 	!pip install pandas==0.23.4
