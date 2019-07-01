@@ -1,4 +1,4 @@
-# Quantitative Portfolio Management
+# Trading using Options Sentiment Indicators
 
 In this course, you have learned how to code the three trading strategies namely TRIN, PCR and VIX in Python. All these codes are provided in this downloadables folder.
 
