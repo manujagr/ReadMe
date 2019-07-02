@@ -1,6 +1,6 @@
 # Sentiment Analysis in Trading
 
-In this course, you have learned how to code to create an API object, fetch tweets,  in Python. You have also calculated Beta, expected returns using the Fama French three-factor model and created a strategy using momentum and short-term reversal factors in Python. All these codes are provided in this downloadables folder.
+In this course, you have learned how to code to create an API object, fetch tweets and news in Python. You have also learned to calculate the sentiment score, identifying and removing bots account and sentiment based trading in Python. All these codes are provided in this downloadables folder.
 
 ## This readme file has the following sections:
 1. Prerequisites
