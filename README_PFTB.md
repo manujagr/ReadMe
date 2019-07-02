@@ -1,6 +1,6 @@
 # Quantitative Portfolio Management
 
-In this course, you have learned how to code the three capital allocation methods namely, MPT, Kelly Criterion and Risk Parity in Python. You have also calculated Beta, expected returns using the Fama French three-factor model and created a strategy using momentum and short-term reversal factors in Python. All these codes are provided in this downloadables folder.
+In this course, you have learned how to install the python packages, importing the packages and importing the data. You have also learned functions, data structures and data visualisation in Python. You have also been made aware of the Python libraries like Pandas and Numpy. All these codes are provided in this downloadables folder.
 
 ## This readme file has the following sections:
 1. Prerequisites
@@ -8,7 +8,6 @@ In this course, you have learned how to code the three capital allocation method
 3. Running the code
 4. Folder structure
 5. Authors
-6. Acknowledgements
 
 ## Prerequisites:
 Before running these notebooks, you need to setup a Python environment on your local machine. If already present, make sure the Python version is 3.6.8. To change the Python version, open the Anaconda prompt and type the following command: 
@@ -16,12 +15,21 @@ Before running these notebooks, you need to setup a Python environment on your l
 	conda install python=3.6.8
 
 ## Installing packages:
-We have used the following Python libraries in the course. Kindly ensure you have these libraries installed with the same versions as mentioned below. To install the same version on your local system. Type this command on IPython notebook.
+We have used the following Python libraries in the course. Kindly ensure you have these libraries installed with the same versions as mentioned below. To install the same version on your local system, type these commands on IPython notebook.
 
     !pip install numpy==1.16.4
     !pip install pandas==0.23.4
     !pip install matplotlib==2.2.3
-    !pip install cvxpy==1.0.24
+    !pip install alpha_vantage==2.1.0
+    !pip install bokeh==0.13.0
+    !pip install fix-yahoo-finance==0.0.22
+    !pip install nsepy==0.7
+    !pip install pandas-datareader==0.7.0
+    !pip install Quandl==3.4.5
+    !pip install seaborn==0.9.0
+    !pip install iexfinance==0.3.5
+    !pip install scipy==1.1.0
+    !pip install mpl-finance==0.10.0
   
 ## Running the code:
 Once you have your system in place, you can run the notebooks using Jupyter interface. This is installed along with Anaconda.
@@ -29,44 +37,61 @@ Once you have your system in place, you can run the notebooks using Jupyter inte
 ## Folder structure:
 This folder contains 8 subfolders divided based on the sections of the course. Each subfolder contains the IPython notebooks and the data required to run them in that particular section.
 
-	1. Basics of Portfolio Construction:
-		a. Basics of Portfolio Construction.ipynb
-		b. Stock_Prices_2016_To_2017.csv
+	1. Hello Python:
+		a. My First Python Code.ipynb
+		b. How to install packages in Python.ipynb
+		c. How to install packages in Python.ipynb
 
-	2. Modern Portfolio Theory:
-		a. Modern Portfolio Theory.ipynb
-		b. Stock_Prices_2016_To_2017_MPT.csv
+	2. Expressions:
+		a. Expressions.ipynb
 
-	3. Kelly Criterion:
-		a. Kelly Portfolio.ipynb
-		b. Kelly_Portfolio_2011_To_2017.csv
+	3. Python Data Structures:
+		a. Dictionaries.ipynb
+		b. Lists.ipynb		c. 
+		c. Stacks, Queues, Graphs, Trees.ipynb
+		d. Tuples and Sets.ipynb
 
-	4. Risk Parity:
-		a. Risk Parity.ipynb
-		b. Stock_Prices_2016_To_2017_RP.csv
+	4. Importing Data and Data Visualization:
+		a. 2 D Plotting.ipynb
+		b. 3 D Plotting.ipynb
+		c. Candlesticks.ipynb
+		d. Importing Data from web source.ipynb
+		e. pandas.read_csv.ipynb
+		f. infy_data.csv
+		g. infy_dv.csv
+		h. quantrautil.py
+		   You will need this file while running the code.
+		   You need to write your own Quandl API key at line 12 in quantrautil.py file. 
+		   To get the Quandl API key, sign up for a free Quandl account.
+		   Then you can find your API key on Quandl account settings page.
 
-	5. Beta:
-		a. Beta Calculation.ipynb
-		b. AMZN_SPY_Prices_2018_to_2019_Beta.csv
+	5. Functions:
+		a. Functions.ipynb
+		b. Lambda.ipynb
+		c. infy_data_bb.csv
+		d. nifty_data.csv
+		
+	6. Numpy:
+		a. Indexing and Slicing
+		b. Introduction to arrays.ipynb
+		c. Vectorization and Broadcasting.ipynb
 
-	6. Fama-French 3-factor model:
-		a. Fama-French Three-Factor Model.ipynb
-		b. Data_2016_to_2019_FF.csv
+	7. Pandas:
+		a. DataFrame and Basic Functionality.ipynb
+		b. Descriptive Statistical Functions.ipynb
+		c. Grouping and Reshaping.ipynb
+		d. Indexing and Missing values.ipynb
+		f. Series.ipynb
+		g. infy.csv
+		h. infy_data.csv
+		i. infy_twoweeks.csv
+		j. infy_twoweeks_nan.csv
+		k. tcs.csv
 
-	7. Multi Factor Model:
-		a. Multi-Factor Model - Momentum Factor.ipynb
-		b. Multi-Factor Model- Short-Term Reversal Factor.ipynb
-		c. Stock_Prices_2012_To_2017_Factor.csv
-		d. Momentum_Performance_2012_To_2017.csv
-
-	8. Portfolio Analysis:
-		a. Portfolio Analysis.ipynb
-		b. Returns_2012_To_2017_Portfolio_Analysis.csv
+	8. Conditional Statements and Loops:
+		a. Conditional Statements.ipynb
+		b. Loops.ipynb
+		c. infy_twoweeks.csv
 
 ## Author:
 Quantra by QuantInsti
-  
-## Acknowledgements:
-In this course, we have also referred to the research publications by <br>
-		1. AQR <br>
-		2. Blackrock <br>
