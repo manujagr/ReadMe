@@ -1,4 +1,4 @@
-# Quantitative Portfolio Management
+# Introduction to Machine Learning for Trading
 
 In this course, you have learned how to predict trend using the Classification, along with the code, in Python. All these codes are provided in this downloadables folder.
 
