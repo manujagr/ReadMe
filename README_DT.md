@@ -62,7 +62,8 @@ This folder contains 6 subfolders divided based on the sections of the course. E
 	7. sample_DT_deploy_strategy.py:
 		The code to deploy the model on Interactive Broker's TWS using IBridgepy. 
 		Need to place this file within the Strategies folder of the IBridgepy Installation folder. 
-		Place the pickle generated from trained model in IBridgepy Installation folder along with RUN_ME.py file. 			        Update the bar frequency to every minute by using repBarFreq = 60 in the RUN_ME.py file. 
+		Place the pickle generated from trained model in IBridgepy Installation folder along with RUN_ME.py file. 			        
+		Update the bar frequency to every minute by using repBarFreq = 60 in the RUN_ME.py file. 
 
 ## Author:
 Quantra by QuantInsti
