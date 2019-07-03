@@ -1,4 +1,4 @@
-# Quantitative Portfolio Management
+# Python for Trading: Basic
 
 In this course, you have learned how to install the python packages, importing the packages and importing the data. You have also learned functions, data structures and data visualisation in Python. You have also been made aware of the Python libraries like Pandas and Numpy. All these codes are provided in this downloadables folder.
 
