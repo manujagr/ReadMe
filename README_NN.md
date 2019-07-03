@@ -65,6 +65,7 @@ This folder contains 6 subfolders divided based on the sections of the course. E
 		d. model_save.h5
 		e. model_save.json
 		f. weights-best2.hdf5
+		
 	7. sample_NN_deploy_strategy.py:
 		The code to deploy the model on Interactive Broker's TWS using IBridgepy. 
 		Need to place this file within the Strategies folder of the IBridgepy Installation folder. 
