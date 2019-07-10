@@ -16,8 +16,7 @@ Before running these notebooks, you need to setup a Python environment on your l
 Once you have your system in place, you can run the notebooks using Spyder interface. This is installed along with Anaconda.
 
 ## Folder structure:
-This folder contains 3 subfolders divided based on the sections of the course. Each subfolder contains the IPython notebooks and the data required to run them in that particular section.
-
+This folder contains 3 subfolders divided based on the sections of the course. Each subfolder contains the Python codes for that specific section.
 	1. Place and Cancel Orders:
 		a. example_place_market_and_limit_order.py
 
